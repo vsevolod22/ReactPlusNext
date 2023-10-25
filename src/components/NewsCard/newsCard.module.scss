@@ -1,0 +1,47 @@
+
+
+
+.news_card {
+    border: 1px solid #120A0A;
+    border-radius: 30px;
+    position: relative;
+    background-color: #fff;
+    width: 415px;
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        height: 140px;
+        padding-top: 40px;
+        border-radius: 30px 30px 0px 0px;   
+        background: #DADEFF;
+        color: #120A0A;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.4px;
+    }
+    &_descr {
+        
+        padding-bottom: 100px;
+        width: 86%;
+        min-height: 240px;
+        background-color: #fff;
+        color: #120A0A;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+    }
+    &__link {
+        position: absolute;
+        bottom: 50px;
+        right: 30px;
+    }
+}

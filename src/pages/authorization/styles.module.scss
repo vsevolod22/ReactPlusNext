@@ -1,0 +1,104 @@
+
+
+
+.authorization {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 630px;
+    width: 480px;
+    margin-bottom: 40px;
+
+    &__logo {
+        color: #4B8AE7;
+        text-align: center;
+        font-family: Domine;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -2.03px;
+    }
+    &_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        
+        height: 84vh;
+        background-color: rgba(75, 138, 231, .3); 
+    }
+    &__title {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 155px;
+        margin-bottom: 60px;
+        &_input {
+            width: 330px;
+            height: 60px;
+            background-color: #E8F0F6;
+            border: none;
+            padding-left: 25px;
+            border-radius: 10px;
+
+        }
+        &_link {
+            position: absolute;
+            bottom: 250px;
+            left: 85px;
+            color: #4B8AE7;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: -0.7px;
+        }
+    }
+    &__link {
+        margin-bottom: 30px; 
+        color: #4B8AE7;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: -0.7px;
+    }
+    .authorization__button {
+        width: 330px;
+        margin-bottom: 40px;
+    }
+}
+.modal {
+
+    &__text {
+        width: 530px;
+        color: #4B8AE7;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+    }
+    &__exit {
+        position: absolute;
+        right: 30px;
+    }
+
+}
